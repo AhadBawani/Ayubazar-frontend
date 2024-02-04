@@ -1,0 +1,19 @@
+.footer-header {
+    color: #0a0808;
+    font-size: 140%;
+    font-weight: 600 !important;
+}
+
+.card-title-span{
+    font-size: 32px;
+    font-weight: 600 !important;
+    line-height: '30px';
+    color: #caae96;
+    margin-bottom: 3px;
+}
+
+.card-body-span{
+    color: #999;
+    font-size: 18px;
+    line-height: 35px;
+}

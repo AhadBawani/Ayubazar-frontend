@@ -1,0 +1,11 @@
+.image-container {
+    overflow: hidden;
+}
+
+.image-zoom {
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover .image-zoom {
+    transform: scale(2);
+}
