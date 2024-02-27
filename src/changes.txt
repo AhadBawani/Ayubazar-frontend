@@ -1,0 +1,10 @@
+product review system
+onclick on searched product 
+filter product according to company
+when user login again cart quantity issue
+bullet points and long description for product
+particular product discount
+coupon expiry date wise
+offer of the day tab
+Blogs dynamic
+orders file should have ranges to select from to which order
