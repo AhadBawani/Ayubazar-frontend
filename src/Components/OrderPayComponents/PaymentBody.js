@@ -18,7 +18,7 @@ const PaymentBody = () => {
             MUID: "MUID" + Date.now(),
             transactionId: 'T' + Date.now(),
         }        
-        axios.post('http://localhost:5000/payment', { ...obj })
+        axios.post('https://api.ayubazar.in/payment', { ...obj })
             .then(res => {
                 setTimeout(() => {
                     setIsProcessing(false);

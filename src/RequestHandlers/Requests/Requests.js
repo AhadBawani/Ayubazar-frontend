@@ -1,5 +1,5 @@
-const url = "http://localhost:5000";
-// const url = "https://api.ayubazar.in";
+// const url = "http://localhost:5000";
+const url = "https://api.ayubazar.in";
 // const url = 'http://77.37.47.21:5000';
 const Requests = {
     GET_ALL_COMPANY: url + '/company',
