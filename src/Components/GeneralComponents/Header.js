@@ -145,7 +145,7 @@ const Header = () => {
                                 }}
                             >
                                 <span className="inline-block mr-6">We are proud to offer our shipping services to over 180+ countries worldwide</span>
-                                <span className="inline-block mr-6">Any issues, please let us know. We are available on WhatsApp at +91 94 285 60666</span>
+                                <span className="inline-block mr-6">Any issues, please let us know. We are available on WhatsApp at +91 94285 60666</span>
                             </div>
                         </div>
                         <div className="flex justify-between items-center py-4 px-8">
