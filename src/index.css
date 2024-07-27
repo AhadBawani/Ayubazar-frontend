@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+/* Add this custom CSS to your tailwind CSS file or a custom CSS file */
+.custom-checkbox {
+  @apply w-6 h-6 flex items-center justify-center border border-gray-400 rounded-md transition-all;
+}

@@ -1,0 +1,37 @@
+orders file should have ranges to select from to which order
+
+
+{
+                                    !shipping?.state | !shipping?.city
+                                        ?
+                                        <>
+                                            <div className='flex flex-col justify-end items-end'>
+                                                <span>Free Shipping</span>
+                                                <div className='mt-4 flex flex-col justify-end items-end'>
+                                                    <span>Shipping option will be</span>
+                                                    <span>Updated during checkout.</span>
+                                                </div>
+                                            </div>
+                                        </>
+                                        :
+                                        <>
+                                            {
+                                                shipping && shipping?.charges === 'free'
+                                                    ?
+                                                    <>
+                                                        <span>Free Shipping</span>
+                                                    </>
+                                                    :
+                                                    <>
+                                                        <span>Shipping Charges : </span>
+                                                        <div className='flex'>
+                                                            <span><LuIndianRupee className='ml-1' /></span>
+                                                            <span>{shipping?.charges}.00</span>
+                                                        </div>
+                                                    </>
+                                            }
+                                        </>
+                                }
+
+
+                                Total calculation issue
