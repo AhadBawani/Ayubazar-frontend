@@ -1,0 +1,8 @@
+client invoice isVariationAvailable option -- done
+in invoice coupon display -- done
+in client invoice show price properly in variation products -- done
+set search input for orders in admin panel -- done
+request for cancel order are also shown in pending order change it -- done
+show order cancel request with reason at the bottom -- done
+on the way and delivered email -- done
+when coupon applied after the COD cod charges are not calculated
